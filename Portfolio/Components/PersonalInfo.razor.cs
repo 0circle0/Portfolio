@@ -20,6 +20,6 @@ namespace Portfolio.Components
         public string Image { get; set; } = string.Empty;
 
         [Parameter]
-        public string ImageTitle { get; set; } = string.Empty;
+        public string Title { get; set; } = string.Empty;
     }
 }

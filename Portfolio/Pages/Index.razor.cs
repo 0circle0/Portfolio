@@ -9,7 +9,7 @@ namespace Portfolio.Pages
             Title = "Sprite Creator 3",
             Text = "Sprite Creator 3 is a character generator where you can design and export animated sprite sheets",
             Link = "https://spritecreator.itch.io/spritecreator3",
-            SrcImage = "/image/GitHub-Mark.png"
+            SrcImage = "/image/background2.png"
         };
 
         private readonly CardDetails GithubCard = new()
