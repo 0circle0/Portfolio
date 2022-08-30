@@ -1,26 +1,14 @@
 ﻿@page "/"
+@using Portfolio.Components;
 
 <PageTitle>Portfolio</PageTitle>
 
-<h1 class="d-flex justify-content-start fw-bold">Portfolio</h1>
-
-
-<div class="d-flex flex-column align-items-center border">
-    <h2><a href="https://spritecreator.itch.io/spritecreator3">Sprite Creator 3</a></h2>
-    <iframe width="640" height="360" src="https://www.youtube.com/embed/n3OSPQPFgAo"
-            title="Sprite Creator Demo" frameborder="0" allowfullscreen></iframe>
-    <h3 class="text-center">C/C++, C#, JavaScript, Server/Client with NodeJS, Unity3D Client/Server</h3>
-</div>
-<br/>
-<div class="d-flex flex-column align-items-center border">
-
-    <h2><a href="https://github.com/0circle0">Github</a></h2>
-    <a href="https://github.com/0circle0"><img height="360" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" /></a>
-    <h3 class="text-center">Sprite Creator 3 is a character generator where you can dress up and export and animated sprite sheet</h3>
-</div>
-<br/>
-
-
-
-
-
+<Card Title="Sprite Creator 3"
+      Text="Sprite Creator 3 is a character generator where you can design and export animated sprite sheets"
+      Link="https://spritecreator.itch.io/spritecreator3"
+      SrcImage="/image/background2.png" />
+<br />
+<Card Title="Github"
+      Text="C/C++, C#, JavaScript, Server/Client with NodeJS, Unity3D Client/Server"
+      SrcImage="/image/GitHub-Mark.png"
+      Link="https://github.com/0circle0" />
