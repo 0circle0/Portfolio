@@ -7,7 +7,7 @@ namespace Portfolio.Pages
         private readonly CardDetails SpriteCreatorCard = new()
         {
             Title = "Sprite Creator 3",
-            Text = "Sprite Creator 3 is a character generator where you can design and export animated sprite sheets",
+            Text = "Customizable Animated Sprite Character Generator. Exports animated sprite sheets for use in games and apps. GUI Themes",
             Link = "https://spritecreator.itch.io/spritecreator3",
             SrcImage = "/image/background2.png"
         };
@@ -18,6 +18,14 @@ namespace Portfolio.Pages
             Text = "C/C++, C#, JavaScript, Server/Client with NodeJS, Unity3D Client/Server",
             Link = "https://github.com/0circle0",
             SrcImage = "/image/GitHub-Mark.png"
+        };
+
+        private readonly CardDetails DiceCard = new()
+        {
+            Title = "Dice",
+            Text = "Roll Customizable dice with multiple colors and menu options using Physics for WebGL, Desktop, and Android",
+            Link = "https://spritecreator.itch.io/dice",
+            SrcImage = "/image/Dice.png"
         };
     }
 }
