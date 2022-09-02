@@ -4,8 +4,7 @@
     {
         private readonly List<string> PrimarySkills = new()
         {
-            ".Net", "Unity3D", "NodeJS", "MongoDB",
-            "Github", "Windows OS"
+            ".Net", "Unity3D", "NodeJS", "MongoDB", "Github", "Windows OS"
         };
 
         private readonly List<string> SecondarySkills = new()

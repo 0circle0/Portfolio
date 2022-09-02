@@ -1,0 +1,11 @@
+﻿<div class="w-75 m-auto mb-1 border p-3">
+    <div class="d-flex flex-column @(CenterData ? "align-items-center" : "")">
+        <h1 class="text-center">@Title</h1>
+        @foreach (var item in Data)
+        {
+            <p>
+                @item
+            </p>
+        }
+    </div>
+</div>

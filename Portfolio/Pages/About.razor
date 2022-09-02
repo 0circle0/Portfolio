@@ -1,63 +1,12 @@
 ﻿@page "/about"
+@using Portfolio.Components
 <PageTitle>About</PageTitle>
 
-<div class="d-flex gap-lg-5 justify-content-center" role="main">
-    <div class="col-12">
-        <div class="d-flex align-items-center flex-column">
-            <h1>About Me</h1>
-            <div>
-                <p>
-                    Self taught programmer using books, stackoverflow.com, API Docs, and youtube videos.
-                    My first language was QBASIC creating simple programs and giving more lives in Nibbles and Gorillas.
-                    My first games were created with Allegro and C/C++ at 16.
-                </p>
-                <p>
-                    I released my first application August 1 2013 called Sprite Creator 3 using Java Swing. It was a free to use and share application that was
-                    created using Java Swing. It started as a learning Java project that later was recreated with Unity3D. Sprite Creator 3 has over
-                    300k downloads in 100+ countries as the free version using Java. The recreated Unity3D version was put on itch.io for purchase.
-                </p>
-                <p>
-                    Sprite Creator 3 started as a learning project using Java Swing. Later Unity3D and NodeJS Server/Client
-                    games became my passion.
-                </p>
-                <p>
-                    I started to focus on backend services around 2020 during the pandemic learning Client side prediction, 
-                    Server validation, Input Validation, Credential validation, Session Validation, Account creation, Email varification,
-                    Credential validation, State Machines, Rollback, History, Real-Time Physics were primary goals.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+<Paragraphs Title="About Me" Data="AboutMe" />
 
-<div class="d-flex gap-lg-5 justify-content-center">
-    <div class="col-12">
-        <div class="d-flex align-items-center flex-column ">
-            <h1>Languages</h1>
-            <p>
-                C/C++, C#, Java, JavaScript, HTML, CSS, SQL
-            </p>
-        </div>
-    </div>
-</div>
-<div class="d-flex gap-lg-5 justify-content-center text-center">
-    <div class="col-12">
-        <div class="d-flex align-items-center flex-column">
-            <h1>Technologies</h1>
-            <p>
-                Azure DevOps, Microsoft SQL Server, Visual Studio, Rider, Unity3D, MongoDB, NodeJS
-            </p>
-        </div>
-    </div>
-</div>
-<div class="d-flex gap-lg-5 justify-content-center text-center">
-    <div class="col-12">
-        <div class="d-flex align-items-center flex-column">
-            <h1>Frameworks</h1>
-            <p>
-                .Net, Blazor/Razor, Java Swing
-            </p>
-        </div>
-    </div>
-</div>
+<Paragraphs Title="Languages" Data="Languages" CenterData="true" />
+
+<Paragraphs Title="Technologies" Data="Technologies" CenterData="true" />
+
+<Paragraphs Title="Frameworks" Data="Frameworks" CenterData="true" />
 

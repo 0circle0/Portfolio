@@ -8,6 +8,7 @@ namespace Portfolio.Pages
         public async void Print()
         {
             await jsruntime.InvokeVoidAsync("Print");
+            
         }
     }
 }
