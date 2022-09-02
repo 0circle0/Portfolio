@@ -4,3 +4,8 @@
         <li class="list-group-item">@skill</li>
     }
 </ul>
+
+@code {
+    [Parameter]
+    public List<string> List { get; set; } = new();
+}
