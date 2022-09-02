@@ -1,14 +1,11 @@
 ﻿@using Portfolio.Classes
 <div class="card d-flex justify-content-center align-items-center flex-lg-row flex-md-column flex-sm-column w-75 m-auto">
-    <img class="car-img-top" height="360" width="360" src=@Details.SrcImage />
+    <img class="car-img-top" height="360" width="360" src=@Details.SrcImage role="img" />
     <div class="card-body">
-        <h2 class="card-title text-center"><a href="@Details.Link">@Details.Title</a></h2>
+        <h2 class="card-title text-center">
+            <a href="@Details.Link" role="link">@Details.Title</a>
+        </h2>
         <h3 class="card-text text-center">@Details.Text</h3>
     </div>
 </div>
-<br/>
-
-@code {
-    [Parameter]
-    public CardDetails Details { get; set; } = new();
-}
+<br />

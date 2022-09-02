@@ -1,16 +1,8 @@
-﻿<li class="list-group-item border">
+﻿<li class="list-group-item border" role="listitem">
     @Title
-    <ul>
+    <ul role="list">
         @foreach(var item in List) {
-            <li>@item</li>
+            <li role="listitem">@item</li>
         }
     </ul>
 </li>
-
-@code {
-    [Parameter]
-    public List<string> List { get; set; } = new();
-
-    [Parameter]
-    public string Title { get; set; } = string.Empty;
-}

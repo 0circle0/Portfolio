@@ -1,40 +1,20 @@
 ﻿<div class="d-flex justify-content-between mb-5 mb-lg-0">
-    <img src="@Image" class="faceImg rounded" title="@Title" />
+    <img src="@Image" class="faceImg rounded" title="@Title" role="img"/>
     <div class="d-inline-flex list-group justify-content-start">
-        <ul class="list-group">
-            <li class="email list-group-item">@Email</li>
+        <ul class="list-group" role="list">
+            <li class="email list-group-item" role="listitem">@Email</li>
         </ul>
-        <ul class="list-group border-0">
-            <li class="list-group-item">
+        <ul class="list-group border-0" role="list">
+            <li class="list-group-item" role="listitem">
                 @Address1
                 <br />
                 @Address2
             </li>
         </ul>
-        <ul class="list-group">
-            <li class="list-group-item">
-                <a href="@LinkedIn">LinkedIn</a>
+        <ul class="list-group" role="list">
+            <li class="list-group-item" role="listitem">
+                <a href="@LinkedIn" role="link">LinkedIn</a>
             </li>
         </ul>
     </div>
 </div>
-
-@code {
-    [Parameter]
-    public string Email { get; set; } = string.Empty;
-
-    [Parameter]
-    public string LinkedIn { get; set; } = string.Empty;
-
-    [Parameter]
-    public string Address1 { get; set; } = string.Empty;
-
-    [Parameter]
-    public string Address2 { get; set; } = string.Empty;
-
-    [Parameter]
-    public string Image { get; set; } = string.Empty;
-
-    [Parameter]
-    public string Title { get; set; } = string.Empty;
-}

@@ -1,16 +1,10 @@
 ﻿<div class="mt-5 mb-5">
     <h2 class="d-flex justify-content-center">Education</h2>
     <div class="d-flex justify-content-center">
-        <ul class="list-group w-75">
-            <ListGroupItem List=@HighSchool Title="High School"/>
+        <ul class="list-group w-75" role="list">
+            <ListGroupItem List=@HighSchool Title="High School" />
         </ul>
     </div>
 </div>
 
-@code {
-    private List<string> HighSchool = new() {
-            "Kenosha Unified, Kenosha WI",
-            "Graduation with Diploma December 2002"
-        };
-}
 

@@ -1,9 +1,14 @@
 ﻿@page "/resume"
 @using Portfolio.Components;
+@inject IJSRuntime jsruntime;
 
 <PageTitle>Resume</PageTitle>
-
-<h1 class="d-flex justify-content-center fw-bold mb-5 mb-lg-0">Brian Paul Jensen II</h1>
+@if (showPrintButton)
+{
+    <button class="btn btn-primary hideOnPrint" type="button" @onclick="Print">Print</button>
+}
+<a class="btn btn-primary hideOnPrint position-fixed" href="../files/Resume.pdf" download id="download">Download Resume</a>
+<h1 class="d-flex justify-content-center fw-bold mb-5 mb-lg-0" aria-label="name">Brian Paul Jensen II</h1>
 
 <PersonalInfo Address1="335 Clover Ave Apt 6"
               Address2="Cookeville TN 38501"
