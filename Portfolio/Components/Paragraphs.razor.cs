@@ -11,6 +11,6 @@ namespace Portfolio.Components
         public List<string> Data { get; set; } = new();
 
         [Parameter]
-        public bool CenterData { get;set; } = false;
+        public bool CenterData { get; set; } = false;
     }
 }
