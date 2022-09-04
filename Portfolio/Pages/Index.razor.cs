@@ -9,7 +9,7 @@ namespace Portfolio.Pages
             Title = "Sprite Creator 3",
             Text = "Customizable Animated Sprite Character Generator. Exports animated sprite sheets for use in games and apps. GUI Themes",
             Link = "https://spritecreator.itch.io/spritecreator3",
-            SrcImage = "/image/background2.png"
+            SrcImage = "https://i.ibb.co/mGLwrNj/background2.png"
         };
 
         private readonly CardDetails GithubCard = new()
@@ -17,7 +17,7 @@ namespace Portfolio.Pages
             Title = "Github",
             Text = "C/C++, C#, JavaScript, Server/Client with NodeJS, Unity3D Client/Server",
             Link = "https://github.com/0circle0",
-            SrcImage = "/image/GitHub-Mark.png"
+            SrcImage = "https://i.ibb.co/Pmwbz0b/Git-Hub-Mark.png"
         };
 
         private readonly CardDetails DiceCard = new()
@@ -25,7 +25,7 @@ namespace Portfolio.Pages
             Title = "Dice",
             Text = "Roll Customizable dice with multiple colors and menu options using Physics for WebGL, Desktop, and Android",
             Link = "https://spritecreator.itch.io/dice",
-            SrcImage = "/image/Dice.png"
+            SrcImage = "https://i.ibb.co/ZmKSkQc/Dice.png"
         };
 
         private readonly CardDetails WordCard = new()
@@ -33,7 +33,7 @@ namespace Portfolio.Pages
             Title = "Words",
             Text = "Type the words. Destroy the cubes. Keep track of your typing speed. Unity3D typing asset.",
             Link = "https://spritecreator.itch.io/words",
-            SrcImage = "/image/Words.png"
+            SrcImage = "https://i.ibb.co/HPJ35m5/Words.png"
         };
     }
 }

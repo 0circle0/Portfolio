@@ -1,25 +1,28 @@
 ﻿@page "/contactme"
 <PageTitle>Contact Me</PageTitle>
 
-<div class="container w-25 text-center p-3">
+<div class="container w-25 text-center p-3 shadow-sm">
     <h3>Contact Me</h3>
     <form target="_blank" action="https://formsubmit.co/e8b687c7d61729756583878447522e19" method="POST">
-        <div class="form-group">
-            <div class="form-row">
-                <div class="col p-1">
-                    <input type="text" name="name" class="form-control" placeholder="Name" required />
-                </div>
-                <div class="col p-1">
-                    <input type="email" name="email" class="form-control" placeholder="Email" label required />
-                </div>
-            </div>
+
+        <div class="col p-1">
+            <input type="text" name="name" class="form-control" placeholder="Name" required />
         </div>
 
-        <div class="form-group p-1">
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="text" name="_honey" style="display:none" />
-            <textarea placeholder="Message" class="form-control" name="message" rows="2" required />
+        <div class="col p-1">
+            <input type="email" name="email" class="form-control" placeholder="Email" label required />
         </div>
-        <button type="submit" class="btn btn-lg btn-primary btn-block">Send</button>
+
+        <div class="p-1">
+            <textarea name="message" class="form-control" placeholder="Message" maxlength="288" rows="3" required />
+        </div>
+
+        <div class="visually-hidden">
+            <input type="text" name="_captcha" value="false" />
+            <input type="text" name="_honey" />
+        </div>
+
+        <button type="submit" class="btn btn-lg btn-primary btn-block mt-3">Send</button>
+        
     </form>
 </div>
