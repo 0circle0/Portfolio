@@ -1,4 +1,6 @@
-﻿.faceImg {
+﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+.faceImg {
     width: 92px;
     height: 128px;
     box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
