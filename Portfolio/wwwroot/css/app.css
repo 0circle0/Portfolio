@@ -5,13 +5,6 @@
     src: local('Gill Sans Nova'), url('https://fonts.cdnfonts.com/s/13921/5.- Gill Sans Nova Book.woff') format('woff');
 }
 
-@font-face {
-    font-family: 'Gill Sans Nova';
-    font-style: italic;
-    font-weight: 400;
-    src: local('Gill Sans Nova'), url('https://fonts.cdnfonts.com/s/13921/6.- Gill Sans Nova Book Italic.woff') format('woff');
-}
-
 .faceImg {
     width: 92px;
     height: 128px;
@@ -25,6 +18,11 @@
     .resumeDownload {
         position: fixed;
     }
+}
+
+h1 {
+    font-family: 'Gill Sans Nova';
+    font-weight: 600;
 }
 
 @media  (max-width : 899px) {

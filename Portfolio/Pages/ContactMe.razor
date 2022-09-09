@@ -2,19 +2,22 @@
 <PageTitle>Contact Me</PageTitle>
 
 <div class="list-group-item container w-lg-25 text-center p-3 shadow-sm">
-    <h3>Contact Me</h3>
+    <h1>Contact Me</h1>
     <form target="_blank" action="https://formsubmit.co/e8b687c7d61729756583878447522e19" method="POST">
 
-        <div class="col p-1">
-            <input type="text" name="name" class="form-control" placeholder="Name" required />
+        <div class="col p-1 form-floating">
+            <input type="text" id="name" name="name" class="form-control" placeholder="Name" required />
+            <label for="name">Name</label>
         </div>
 
-        <div class="col p-1">
-            <input type="email" name="email" class="form-control" placeholder="Email" label required />
+        <div class="col p-1 form-floating">
+            <input type="email" id="email" name="email" class="form-control" placeholder="Email" label required />
+            <label for="email">Email</label>
         </div>
 
-        <div class="p-1">
-            <textarea name="message" class="form-control" placeholder="Message" maxlength="288" rows="3" required />
+        <div class="p-1 form-floating">
+            <textarea name="message" id="message" class="form-control" placeholder="Message" maxlength="288" rows="3" required />
+            <label for="message">Message</label>
         </div>
 
         <div class="visually-hidden">
@@ -22,7 +25,7 @@
             <input type="text" name="_honey" />
         </div>
 
-        <button type="submit" class="btn btn-lg btn-primary btn-block mt-3">Send</button>
+        <button type="submit" class="btn btn-primary w-25 mt-3">Send</button>
         
     </form>
 </div>
