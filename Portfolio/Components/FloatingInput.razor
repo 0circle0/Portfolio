@@ -1,25 +1,14 @@
-﻿<div class="col p-1 form-floating">
+﻿<div class="col p-1 @(TextBox?"":"form-floating")">
     @if (!TextBox)
     {
         <input type="text" id="@Id" name="@Id" class="form-control" placeholder="@Text" required="@Required" />
     }
     else
     {
-        <textarea name="@Id" id="@Id" class="form-control" placeholder="@Text" maxlength="288" rows="3" required="@Required" />
+        <textarea name="@Id" id="@Id" class="form-control h-100" rows="6" placeholder="@Text" maxlength="144" required="@Required" />
     }
-    <label for="@Id">@Text</label>
+    @if (!TextBox)
+    {
+        <label class="form-label" for="@Id">@Text</label>
+    }
 </div>
-
-@code {
-    [Parameter]
-    public bool Required { get; set; } = true;
-
-    [Parameter]
-    public bool TextBox { get; set; } = false;
-
-    [Parameter]
-    public string Text { get; set; } = string.Empty;
-
-    [Parameter]
-    public string Id { get; set; } = string.Empty;
-}
