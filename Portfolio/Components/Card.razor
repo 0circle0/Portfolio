@@ -3,7 +3,14 @@
     <img class="car-img-top" height="192" width="192" src=@Details.SrcImage role="img" />
     <div class="card-body">
         <h2 class="fw-bold card-title text-center">
-            <a href="@Details.Link" role="link">@Details.Title</a>
+            @if (Details.Link != string.Empty)
+            {
+                <a href="@Details.Link" role="link">@Details.Title</a>
+            } 
+            else
+            {
+                @Details.Title
+            }
         </h2>
         <p class="card-text text-center">@Details.Text</p>
     </div>

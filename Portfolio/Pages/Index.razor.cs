@@ -35,5 +35,13 @@ namespace Portfolio.Pages
             Link = "https://spritecreator.itch.io/words",
             SrcImage = "https://i.ibb.co/HPJ35m5/Words.png"
         };
+
+        private readonly CardDetails BlazorCard = new()
+        {
+            Title = "Blazor",
+            Text = "This site was created with Blazor 6 and Bootstrap 5 view the source code on Github",
+            Link = "https://github.com/0circle0/Portfolio",
+            SrcImage = "https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2019/04/BrandBlazor_big_with_border.png"
+        };
     }
 }
