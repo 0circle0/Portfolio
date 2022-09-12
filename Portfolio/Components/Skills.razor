@@ -1,25 +1,10 @@
 ﻿<div class="mt-5">
-    <h2 class="d-flex justify-content-center">Skills</h2>
-    <div class="d-flex justify-content-center">
-        <div class="d-inline">
-            <ul class="list-group list-group-horizontal-lg p-sm-0 p-lg-1">
-                <li class="list-group-item">C#</li>
-                <li class="list-group-item">.Net</li>
-                <li class="list-group-item">Unity3D</li>
-                <li class="list-group-item">JavaScript</li>
-                <li class="list-group-item">NodeJS</li>
-                <li class="list-group-item">MongoDB</li>
-                <li class="list-group-item">Java</li>
-                <li class="list-group-item">C/C++</li>
-                <li class="list-group-item">Github</li>
-                <li class="list-group-item">Windows OS</li>
-            </ul>
-            <ul class="list-group justify-content-center list-group-horizontal-lg p-sm-0 p-lg-1">
-                <li class="list-group-item">Forklift</li>
-                <li class="list-group-item">Electric Pallet Jack</li>
-                <li class="list-group-item">Scissor Lift</li>
-                <li class="list-group-item">Order Picker</li>
-            </ul>
+    <h2 class="d-flex justify-content-center fw-bold">Skills</h2>
+    <div class="d-flex justify-content-center mt-3">
+        <div class="d-lg-inline gap-3 d-flex align-items-start">
+            <ListGroup List="@LanguageSkills" />
+            <ListGroup List="@PrimarySkills" />
+            <ListGroup List="@SecondarySkills" />
         </div>
     </div>
 </div>

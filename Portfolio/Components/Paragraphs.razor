@@ -1,0 +1,15 @@
+﻿<div class="list-group-item w-75 m-auto mb-1 border p-3 rounded mb-3">
+    <div class="d-flex flex-column @(CenterData ? "align-items-center" : "")">
+        <h2 class="text-center fw-bold">@Title</h2>
+        <ul class="list-unstyled">
+            @foreach (var item in Data)
+            {
+                <li>
+                    <p>
+                        @item
+                    </p>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

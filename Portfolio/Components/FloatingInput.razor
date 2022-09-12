@@ -1,0 +1,14 @@
+﻿<div class="col p-1 @(TextBox?"":"form-floating")">
+    @if (!TextBox)
+    {
+        <input type="text" id="@Id" name="@Id" class="form-control" placeholder="@Text" required="@Required" />
+    }
+    else
+    {
+        <textarea name="@Id" id="@Id" class="form-control h-100" rows="6" placeholder="@Text" maxlength="144" required="@Required" />
+    }
+    @if (!TextBox)
+    {
+        <label class="form-label" for="@Id">@Text</label>
+    }
+</div>

@@ -1,0 +1,21 @@
+﻿@using Portfolio.Components;
+@page "/contactme"
+<PageTitle>Contact Me</PageTitle>
+
+<div class="list-group-item container w-lg-25 text-center p-3 shadow-sm rounded">
+    <h1>Contact Me</h1>
+    <form target="_blank" action="https://formsubmit.co/e8b687c7d61729756583878447522e19" method="POST">
+
+        <FloatingInput Text="Name" Id="name" />
+        <FloatingInput Text="Email" Id="email" />
+        <FloatingInput Text="Message" Id="message" TextBox="true"/>
+      
+        <div class="visually-hidden">
+            <input type="text" name="_captcha" value="false" />
+            <input type="text" name="_honey" />
+        </div>
+
+        <button type="submit" class="btn btn-primary w-25 mt-3">Send</button>
+        
+    </form>
+</div>
