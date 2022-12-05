@@ -5,7 +5,7 @@ namespace Portfolio.Pages
     partial class Resume
     {
         private readonly bool showPrintButton = true;
-        public async void Print()
+        public async Task Print()
         {
             await jsruntime.InvokeVoidAsync("Print");
         }
