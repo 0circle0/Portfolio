@@ -43,5 +43,21 @@ namespace Portfolio.Pages
             Link = "https://github.com/0circle0/Portfolio",
             SrcImage = "https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2019/04/BrandBlazor_big_with_border.png"
         };
+
+        private readonly CardDetails ReactCard = new()
+        {
+            Title = "React",
+            Text = "This site was also created with React 18 with JavaScript and Bootstrap 5 view the source code on Github",
+            Link = "https://github.com/0circle0/react_portfolio",
+            SrcImage = "/logo192.png"
+        };
+
+        private readonly CardDetails ReactCardTS = new()
+        {
+            Title = "React",
+            Text = "This site was also created with React 18 with TypeScript and Bootstrap 5 view the source code on Github",
+            Link = "https://github.com/0circle0/react_Portfolio_TS",
+            SrcImage = "/logo192.png"
+        };
     }
 }
